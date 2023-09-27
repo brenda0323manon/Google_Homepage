@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+    width:100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+nav {
+    margin-top: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    height: 60px;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.PNG:hover {
+    opacity: .50;
+}
+
+.Profile:hover {
+    opacity: .50;
+}
+
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 25%;
+    width: 25%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchBar{
+    width: 35%;
+    padding: 15px 20px;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchBar:hover {
+    box-shadow: 1pt 1pt  lightgrey, .7em .7em .7em lightgrey; 
+}
+
+.SearchIcon {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.GoogleButton, .LuckyButton {
+    margin-inline: 7px;
+}
+
+.GoogleButton {
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 25px;
+    border: none;
+    color: black;
+    background-color: #ececec;
+    border-radius: 3px;
+}
+
+.GoogleButton:hover {
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+
+.LuckyButton {
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 25px;
+    border: none;
+    color: black;
+    border-radius: 3px;
+    background-color: #ececec;
+}
+
+.LuckyButton:hover {
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+
+footer {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color:#f2f0f0;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+footer a {
+    color: #767676;
+}
+
+.leftFooter {
+    margin-inline-start: 2em;
+    
+
+}
+
+.RightFooter {
+    margin-inline-end: 2em;
+}
