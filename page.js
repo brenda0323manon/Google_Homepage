@@ -1,14 +1,18 @@
+ 
  function alertUser() {
-    let search = document.getElementById('#searchBar').value;
+    let search = document.getElementById("searchBar").value;
+    console.log("Search's value is: ", search);
     if (search) {
-        alert("https://www.google.com/search" + search);
-    }
-    
+        alert(search);
+    }    
 }
 
-// function Alert() {
-//        let searchQuery = document.querySelectorAll('#searchBar').value;
-// }
-     
+
+
+
+
+
+
+
 
 
